@@ -1,8 +1,9 @@
 "use client";
 
+import { Suspense, use } from "react";
 import { useSearchParams } from "next/navigation";
 
-export default function PaymentPage() {
+function PaymentContent() {
   const searchParams = useSearchParams();
 
   const course = searchParams.get("course") || "Selected Course";
@@ -87,5 +88,13 @@ export default function PaymentPage() {
 
       </div>
     </main>
+  );
+}
+
+export default function PaymentPage() {
+  return (
+    <Suspense fallback={<div className="min-h-screen bg-sky-50" />}>
+      <PaymentContent />
+    </Suspense>
   );
 }
