@@ -277,9 +277,8 @@ export default function Home() {
               className="group rounded-3xl border border-slate-100 bg-white p-7 shadow-sm transition hover:-translate-y-1 hover:border-sky-200 hover:shadow-xl hover:shadow-sky-100 studot-hover"
               
             >
-              <span className="rounded-full bg-sky-50 px-3 py-1 text-xs font-bold text-sky-600">
-                {course.branch}
-              </span>
+              
+              
 
               <h3 className="mt-6 text-xl font-bold group-hover:text-sky-600">
                 {course.title}
