@@ -1,18 +1,17 @@
 "use client";
 
 import { useState } from "react";
-
 const courses = [
-  "AI & Generative AI",
-  "Data Analytics + AI",
-  "Agentic AI",
+  "Generative AI & Prompt Engineering",
+  "Python & AI Development",
+  "Data Science & AI",
+  "Data Analytics & AI",
+  "Full Stack Development & AI",
   "AI Automation",
-  "Embedded AI",
-  "Embedded Systems & IoT",
-  "Robotics & Automation",
-  "Industrial Automation / Smart Manufacturing",
-  "Civil Engineering Technology / Digital Construction",
-  "Smart Infrastructure & Construction Technology",
+  "Agentic AI",
+  "Digital Marketing & AI",
+  "Cloud Computing & AI",
+  "UI/UX & AI",
 ];
 
 export default function EnrollPage() {

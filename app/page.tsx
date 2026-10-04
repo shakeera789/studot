@@ -2,56 +2,57 @@
 import IntroVideo from "./studot-video";
 const courses = [
   {
-    branch: "Computing",
-    title: "AI & Generative AI",
-    description: "Learn modern AI tools, GenAI concepts and practical applications.",
+    title: "Generative AI & Prompt Engineering",
+    description:
+      "Learn generative AI tools, prompt engineering and practical AI applications.",
   },
   {
-    branch: "Computing",
-    title: "Data Analytics + AI",
-    description: "Turn data into insights using analytics and AI-powered workflows.",
+    title: "Python & AI Development",
+    description:
+      "Build a strong Python foundation and create practical AI-powered applications.",
   },
   {
-    branch: "Computing",
-    title: "Agentic AI",
-    description: "Understand AI agents and build practical agent-based solutions.",
+    title: "Data Science & AI",
+    description:
+      "Learn data science, machine learning and AI through practical projects.",
   },
   {
-    branch: "Computing",
+    title: "Data Analytics & AI",
+    description:
+      "Turn real-world data into insights using analytics, visualization and AI.",
+  },
+  {
+    title: "Full Stack Development & AI",
+    description:
+      "Build modern web applications with full-stack development and AI integration.",
+  },
+  {
     title: "AI Automation",
-    description: "Use AI and automation to create smarter digital workflows.",
+    description:
+      "Create intelligent workflows that combine AI, automation tools and real-world tasks.",
   },
   {
-    branch: "ECE",
-    title: "Embedded AI",
-    description: "Explore AI applications in embedded and edge devices.",
+    title: "Agentic AI",
+    description:
+      "Learn how AI agents work and build practical agent-based solutions.",
   },
   {
-    branch: "ECE",
-    title: "Embedded Systems & IoT",
-    description: "Build practical knowledge of connected embedded systems.",
+    title: "Digital Marketing & AI",
+    description:
+      "Learn digital marketing with AI-powered content, analytics, automation and campaigns.",
   },
   {
-    branch: "Mechanical",
-    title: "Robotics & Automation",
-    description: "Learn the foundations of robotics and industrial automation.",
+    title: "Cloud Computing & AI",
+    description:
+      "Learn cloud fundamentals, deployment and how AI applications work on the cloud.",
   },
   {
-    branch: "Mechanical",
-    title: "Industrial Automation & Smart Manufacturing",
-    description: "Explore modern automation and smart manufacturing technologies.",
-  },
-  {
-    branch: "Civil",
-    title: "Civil Engineering Technology",
-    description: "Develop practical digital skills for modern civil engineering.",
-  },
-  {
-    branch: "Civil",
-    title: "Smart Infrastructure & Construction Technology",
-    description: "Explore technology-driven approaches to modern construction.",
+    title: "UI/UX & AI",
+    description:
+      "Design user-friendly digital products using UI/UX principles and modern AI tools.",
   },
 ];
+  
 
 const features = [
   "Live trainer-led classes",
